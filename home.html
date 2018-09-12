@@ -6,10 +6,10 @@
 var xhr = new XMLHttpRequest()
 xhr.open('GET', '/testmusic/cate.json', true)
 xhr.send()
-xhr.onload = function(){
-  render(JSON.parse(xhr.responseText))
-  console.log(JSON.parse(xhr.responseText))
+xhr.onload = function(data){
+ console.log(data);
 }
 
 </script>
 </body>
+</html>
