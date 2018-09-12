@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>testmusic</title>
+</head>
+<body>
+<script>
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET','http://liting/web2/hello.json',false)
+	xhr.send()
+  xhr.onload = function(data){
+    console.log(data)
+  }
+  
+</script>
+</body>
+</html>
