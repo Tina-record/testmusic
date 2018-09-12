@@ -6,9 +6,9 @@
 </head>
 <body>
 <script>
-	var xhr = new XMLHttpRequest();
-	xhr.open('GET','/testmuisc/blob/master/cate.json',true)
-	xhr.send()
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET','/testmuisc/cate.json',true)
+  xhr.send()
   xhr.onload = function(data){
     console.log(data)
   }
